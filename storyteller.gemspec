@@ -1,15 +1,15 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{foca-storyteller}
-  s.version = "0.1.0"
+  s.name = %q{storyteller}
+  s.version = "0.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Nicol\303\241s Sanguinetti"]
   s.date = %q{2008-12-30}
   s.description = %q{Minimalist user story runner on top of test/unit}
   s.email = %q{contacto@nicolassanguinetti.info}
-  s.files = ["lib", "lib/storyteller.rb", "Rakefile", "README.markdown", "storyteller.gemspec", "VERSION.yml"]
+  s.files = ["lib", "lib/storyteller.rb", "Rakefile", "README.markdown", "storyteller.gemspec", "test", "test/fixtures", "test/fixtures/test_example.rb", "test/test_storyteller.rb", "VERSION.yml"]
   s.homepage = %q{http://nicolassanguinetti.info}
   s.require_paths = ["lib"]
   s.rubyforge_project = %q{storyteller}
